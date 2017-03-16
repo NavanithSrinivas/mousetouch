@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/mc_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:text=" M O U S E   T O U C H "
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="89dp"
+        android:id="@+id/button" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:id="@+id/edit_ip"
+            android:hint="Enter system IP address"
+            android:textStyle="bold"
+
+            android:textSize="25sp"
+            android:layout_width="384dp"
+            android:layout_height="66dp"
+            android:background="#efe3f6"
+            android:gravity="center"/>
+
+        <EditText
+            android:inputType="numberDecimal"
+            android:id="@+id/edit_port"
+            android:hint=""
+            android:height="0dp"
+            android:width="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/ip_port_sure"
+            android:layout_gravity="center_horizontal"
+            android:text="CONNECT"
+            android:background="#61c9d8"
+
+            android:textSize="20sp"
+            android:layout_width="119dp"
+            android:layout_height="47dp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>
+
